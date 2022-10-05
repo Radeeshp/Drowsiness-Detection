@@ -68,7 +68,15 @@
     -Using MAR we decide if the person is yawning.If the person is yawning and  if the number of times he yawns is  greater 
      than the threshhold sound the alarm otherwisne reset the yawn counter.
 #### Activity Diagram:
-![1](https://user-images.githubusercontent.com/82216452/194000782-ab9595b6-7ef7-497d-a8d4-5bb40456487a.jpeg)
+![1](https://user-images.githubusercontent.com/82216452/194001340-f4a6476e-d56f-4b46-852d-9745570dcdfe.jpeg)
+
+#### Functions Used :
+     -def EAR()
+     -def MAR()
+#### def EAR():
+
+
+    
 
     
     
