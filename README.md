@@ -20,6 +20,15 @@
       -detect_drowsiness.py
       -haarcascade_frontalface_default.xml
       -shape_predictor_68_face_landmarks.dat
+## Imports Used:
+       -from imutils.video import VideoStream
+      -import numpy as np
+      -import argparse
+      -import imutils
+      -import time
+      -import cv2
+      -import dlib-import argparse
+      -import webbrowser
 ## Working
       
   Using a camera we capture images of the  driver in real time and process these image , 
@@ -86,11 +95,20 @@
       -Commpute the euclidean distance between 2 sets of horizontal mouth landmarks.
       -MAR=(a+b+c)/2*d
       Return the MAR value.
-##### Activity Diagram:
+##### Activity Diagram :
  ![Screenshot 2022-10-05 162801](https://user-images.githubusercontent.com/82216452/194045127-2de80a87-7981-415f-91c5-9d6ccdf0d1af.png)
     
-
+## Steps To Run The Code :
+      -Download and extract the zip file from Git.
+      -Install python,OpenCv,numpy,imutils.
+      -Ensure you have a working camera connected to your Raspberry Pi 
+      -Open the detect_drowsiness.py in a integrated terminal or open command prompt from that location
+      -Run the program in command line or terminal and give the required inputs
     
-    
-
+## References :
+      -https://www.geeksforgeeks.org/
+      -https://opencv.org/
+      -https://pyimagesearch.com/
+      -https://www.google.co.in/    
+      
         
