@@ -104,6 +104,8 @@
       -Ensure you have a working camera connected to your Raspberry Pi 
       -Open the detect_drowsiness.py in a integrated terminal or open command prompt from that location
       -Run the program in command line or terminal and give the required inputs
+      -Use this line in the command line:
+       python detect_drowsiness.py --conf config/config.json
     
 ## References :
       -https://www.geeksforgeeks.org/
