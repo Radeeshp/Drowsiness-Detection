@@ -22,8 +22,11 @@
       -shape_predictor_68_face_landmarks.dat
 ## Working
       
-  Using a camera we capture images of the  driver in real time and process these image , we detect the eyes and mouth of the driver to determine if they are open or       
-  closed .If the eyes are closed for sometime or if the person yawns for sometime then the alarm is sound to wake up the driver.
+  Using a camera we capture images of the  driver in real time and process these image , 
+  
+  we detect the eyes and mouth of the driver to determine if they are open or closed .
+  
+  If the eyes are closed for sometime or if the person yawns for sometime then the alarm is sound to wake up the driver.
   
 ### config.json :
         Its used  to get the configuration inputs from the user.
@@ -64,7 +67,9 @@
     
     -Using MAR we decide if the person is yawning.If the person is yawning and  if the number of times he yawns is  greater 
      than the threshhold sound the alarm otherwisne reset the yawn counter.
-     
+#### Activity Diagram:
+![1](https://user-images.githubusercontent.com/82216452/194000782-ab9595b6-7ef7-497d-a8d4-5bb40456487a.jpeg)
+
     
     
 
