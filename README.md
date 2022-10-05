@@ -67,15 +67,27 @@
     
     -Using MAR we decide if the person is yawning.If the person is yawning and  if the number of times he yawns is  greater 
      than the threshhold sound the alarm otherwisne reset the yawn counter.
-#### Activity Diagram:
+#### Activity Diagram :
 ![1](https://user-images.githubusercontent.com/82216452/194001340-f4a6476e-d56f-4b46-852d-9745570dcdfe.jpeg)
 
 #### Functions Used :
-     -def EAR()
-     -def MAR()
-#### def EAR():
-
-
+     -def EAR(eye)
+     -def MAR(mouth)
+     -def euclidean_dist(ptA,ptB)
+#### def EAR() :
+     -We take 2 sets of points for vertical markers, and set of points for horizontal mmarker.
+     -Calculate the euclidean distance between these points.
+     -Then compute EAR using the obtained euclidean distances and the formula.
+     -Return the EAR value.
+##### Activity Diagram :
+![Screenshot 2022-10-05 162138](https://user-images.githubusercontent.com/82216452/194043928-a5853713-f632-43f9-8075-2feb859a70a7.png)
+#### def MAR():
+      -Compute the euclidean distance between 3 sets of vertical mouth landmarks a,b,c.
+      -Commpute the euclidean distance between 2 sets of horizontal mouth landmarks.
+      -MAR=(a+b+c)/2*d
+      Return the MAR value.
+##### Activity Diagram:
+ ![Screenshot 2022-10-05 162801](https://user-images.githubusercontent.com/82216452/194045127-2de80a87-7981-415f-91c5-9d6ccdf0d1af.png)
     
 
     
